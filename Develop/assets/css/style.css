@@ -1,3 +1,4 @@
+/* Global resets */
 *,
 *::after,
 *::before {
@@ -6,11 +7,8 @@
     margin: 0;
 }
 
-body {
-    min-height: 100vh;
-    text-rendering: optimizeSpeed;
-    background-color: #d9dcd6;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+*:focus {
+    outline: 3px solid red; /* Better contrast ratio for keyboard focusable elements */
 }
 
 /* Fonts */
@@ -41,6 +39,14 @@ p {
 
 a {
     text-decoration: none;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Images */
@@ -83,7 +89,6 @@ img {
     margin-bottom: 25px;
     
 }
-
 
 /* Main Content */
 .content {
@@ -152,20 +157,20 @@ img {
     clear:both;
 }
 
-#footer__page-author {
+#footer__author {
     font-size: 20px;
-    font-weight: 600;
 }
 
-#footer__page-author,
+#footer__author,
 .footer__copyright {
     color: #000;
+    font-weight: 600;
 }
 
 
 /* Media Queries */
 
-@media (max-width: 1015px) {
+@media (max-width: 1440px) {
     .header {
         padding: 10px 15px;
         position: relative;
@@ -178,4 +183,17 @@ img {
         right: 0;
         top: 16px;
     }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+   .benefit__image {
+    width: 125px;
+   }
+  
 }
