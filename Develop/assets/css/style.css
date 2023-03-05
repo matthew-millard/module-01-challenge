@@ -8,7 +8,7 @@
 }
 
 *:focus {
-    outline: 3px solid red; /* Better contrast ratio for keyboard focusable elements */
+    outline: 2px solid red; /* Better contrast ratio for keyboard focusable elements */
 }
 
 /* Fonts */
@@ -39,7 +39,25 @@ p {
 
 a {
     text-decoration: none;
+    border: 5px solid transparent; /* Applies spacing for focus styling */
 }
+
+/* Colors */
+
+:root {
+    --header-bg-color: #2a607c;
+    --logo-accent-color: #d9dcd6;
+    --main-content-bg-color: #0072bb; 
+    --aside-content-bg-color: #2589bd;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
 
 /* Body */
 body {
@@ -49,16 +67,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Images */
-img {
-    display: block;
-    max-width: 100%;
-}
 
 /* Header */
 .header {
     padding: 20px;
-    background-color: #2a607c;
+    background-color: var(--header-bg-color);
 }
 
 .header__logo {
@@ -67,7 +80,7 @@ img {
 }
 
 .header__logo > * {
-    color: #d9dcd6; /* logo - accent color */
+    color: var(--logo-accent-color);
 }
 
 .header__nav {
@@ -101,7 +114,7 @@ img {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: #0072bb;
+    background-color: var(--main-content-bg-color);
 }
 .content__image {
     max-height: 200px;
@@ -131,7 +144,7 @@ img {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--aside-content-bg-color);
 }
 
 .benefit__content {
