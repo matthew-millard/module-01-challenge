@@ -5,10 +5,15 @@
 - [The Challenge](#the-challenge)
 - [Things to Consider](#things-to-consider)
 - [Links](#links)
+- [Screenshots](#screenshots)
+- [Continued development](#continued-development)
+- [Acknowledgments](#acknowledgments)
 
 ## The Challenge
 
 - Refactor the HTML and CSS code to optimize the web page's accessibility and SEO potential.
+
+---
 
 ## Things to Consider
 
@@ -28,14 +33,26 @@
 
 - Change non-semantic HTML elements for more approppiate sematic HTML elements if possible.
 
+---
+
 ## Links
 
 - [Github Pages Link](https://matthew-millard.github.io/module-01-challenge/)
 
 - [Github Repository](https://github.com/matthew-millard/module-01-challenge)
 
+---
+
 ## Screenshots
 
-- ![Desktop Screenshot - Full](./Develop/assets/Screenshots/Desktop-Full-Screenshot-Horiseon-The-SEO-Experts.png)
+![Desktop Screenshot - Full](./Develop/assets/Screenshots/Desktop-Full-Screenshot-Horiseon-The-SEO-Experts.png)
 
-- ![Desktop Screenshot - 768px](./Develop/assets/Screenshots/Desktop-768px-Screenshot-Horiseon-The-SEO-Experts.png.png)
+![Desktop Screenshot - 768px](./Develop/assets/Screenshots/Desktop-768px-Screenshot-Horiseon-The-SEO-Experts.png.png)
+
+---
+
+## Continued development
+
+---
+
+## Acknowledgments
