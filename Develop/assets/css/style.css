@@ -98,9 +98,8 @@ body {
 #hero-image {
     height: 800px;
     width: 100%;
-    object-fit: cover;
-    margin-bottom: 25px;
-    
+    object-fit: cover; /* Prevents the image from being distorted because there is a fixed height set. */
+    margin-bottom: 25px;  
 }
 
 /* Main Content */
