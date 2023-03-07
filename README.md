@@ -9,6 +9,7 @@
 - [My Process](#my-process)
 - [Continued development](#continued-development)
 - [Acknowledgments](#acknowledgments)
+- [Contributors](#contributors)
 
 ## The Challenge
 
@@ -24,7 +25,7 @@
 
 - Add alt text to images that require semantic  meaning and descriptions.
 
-- Reorganise and consolidate the CSS to improve the efficiency, maintability and readability.
+- Reorganize and consolidate the CSS to improve the efficiency, maintainability and readability.
 
 - Add helpful comments in the HTML and CSS file.
 
@@ -32,7 +33,7 @@
 
 - Add a descriptive page title.
 
-- Change non-semantic HTML elements for more approppiate sematic HTML elements if possible.
+- Change non-semantic HTML elements for more appropriate sematic HTML elements if possible.
 
 - Follow the ***Scout Rule**.
 
@@ -187,3 +188,7 @@ The layout is designed for desktop screen sizes only, and requires a responsive 
 [Andy Bell](https://andy-bell.co.uk/a-modern-css-reset/)
 
 [How To: Write Good Alt Text](https://supercooldesign.co.uk/blog/how-to-write-good-alt-text)
+
+## Contributors
+
+[Xander Rapstine](https://github.com/Xandromus)
